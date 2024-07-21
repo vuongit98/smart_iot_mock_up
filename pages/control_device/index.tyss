@@ -1,0 +1,115 @@
+.root {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.root_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 236px;
+    height: 218px;
+}
+.root_text {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #202A6B;
+}
+
+.root_control{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    background-color: #F9F9F9;
+    margin: 30px;
+    padding: 16px 0px;
+}
+.root_control_curtain_open {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    background-image: url('../../assets/open_curtain_1.png');
+}
+.root_control_curtain_play {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    background-image: url('../../assets/play_icon_1.png');
+}
+.root_control_curtain_close {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    background-image: url('../../assets/close_curtain_1.png');
+}
+.root_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 135px;
+}
+
+.root_info_light{
+    background-color: #FFF59E7A;
+    width: 138px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.root_info_battery{
+    background-color: #DCFFA396;
+    width: 138px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.root_info_light_name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.root_info_battery_name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.root_info_light_name_image{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../assets/sunny_1.png");
+}
+
+.root_info_battery_name_image{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../assets/battery_1.png");
+
+}
+.root_info_light_value {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.root_info_battery_value {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+}

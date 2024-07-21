@@ -1,0 +1,41 @@
+<view class="root">
+    <view class="root_device_info">
+        <view class="root_image"></view>
+        <view class="root_edt">
+            <input class="root_edt_input"type="text" value="Curtain - 1"/>
+            <view class="root_edt_image"></view>
+        </view>
+        <view class="root_device_name_info">
+            <text >Device information</text>
+            <view class="root_line"></view>
+        </view>
+        <view class="root_device_name_info">
+            <text >Tap-to -run and Automation</text>
+            <view class="root_line"></view>
+        </view>
+    </view>
+     <view class="root_function_setting">
+            <view class="root_device_name_info">
+                <text >Share Device</text>
+                <view class="root_line"></view>
+            </view>
+            <view class="root_device_name_info">
+                <text >Create Group</text>
+                <view class="root_line"></view>
+            </view>
+            <view class="root_device_name_info">
+                <text >FAQ & Feedback</text>
+                <view class="root_line"></view>
+            </view>
+            <view class="root_device_name_info">
+                <text >Add to home Screen</text>
+                <view class="root_line"></view>
+            </view>
+            <view class="root_device_name_info">
+                <text >Device Update</text>
+                <view class="root_line"></view>
+            </view>
+        </view>
+</view>
+
+

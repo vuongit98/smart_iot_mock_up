@@ -1,0 +1,27 @@
+<view class="root">
+    <image src="../../assets/smart_curtain 1.png" class="root_image"/>
+    <text class="root_text" >100 %</text>
+    <slider />
+    <view class="root_control">
+        <view class="root_control_curtain_open"></view>
+        <view class="root_control_curtain_play"></view>
+        <view class="root_control_curtain_close"></view>
+    </view>
+
+    <view class="root_info">
+        <view class="root_info_light">
+            <view class="root_info_light_name">
+                <view class="root_info_light_name_image"></view>
+                <text >Light</text>
+            </view>1
+            <text class="root_info_light_value" >40%</text>
+        </view>
+        <view class="root_info_battery">
+             <view class="root_info_battery_name">
+                <view class="root_info_battery_name_image"></view>
+                <text >Battery</text>
+            </view>
+            <text class="root_info_battery_value" >100%</text>
+        </view>
+    </view>
+</view>

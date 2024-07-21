@@ -1,0 +1,13 @@
+<view class="root">
+  <view class="root__card_1">
+    <text class="root__card_1_text" >Open from one side</text>
+    <switch />
+  </view>
+  <view class="root__card_2">
+    <text  class="root__card_2_text" >Open from one side</text>
+    <switch />
+  </view>
+  <view class="root__card_3" >
+    <button class="button_next" bindtap="jump"><text >Next</text></button>
+  </view>
+</view>

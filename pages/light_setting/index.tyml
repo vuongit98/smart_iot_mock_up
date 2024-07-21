@@ -1,0 +1,17 @@
+<view class="root">
+    <text class="root_header_title">Light Setting</text>
+
+    <view class="root_cirlce">
+        <view class="root_circle_value">
+            <text class="root_light_title" >Intensity</text>
+            <text class="root_light_value">100%</text>
+        </view>
+    </view>
+
+    <view class="root_btn_cancel_save">
+        <button class="root_btn_cancel" ><text >Cancel</text></button>
+        <button class="root_btn_root"><text >Save</text></button>
+    </view>
+</view>
+
+
